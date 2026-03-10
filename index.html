@@ -4,7 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Redes-Sociais</title>
-    <link rel="stylesheet" href="estilo.css">
+    <style>
+        *{
+    margin: 0;
+}
+html ,body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+body{
+    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#telefone{
+    
+    background: url(imagens/frame-iphone.png) no-repeat ;
+    width: 310px;
+    height: 650px;
+   
+}
+ 
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
+#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.436);
+    transition: ease transform 0.5s, border 0.4s;
+}
+
+#redes img:hover{
+    border:1px solid white;
+    transform: translate(-4px, -4px);
+     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.436)
+}
+    </style>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
