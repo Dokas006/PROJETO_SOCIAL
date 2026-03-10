@@ -7,7 +7,7 @@ html ,body{
      
 }
 body{
-    background: url('/imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -20,7 +20,7 @@ main{
 
 #telefone{
     
-    background: url(/imagens/frame-iphone.png) no-repeat ;
+    background: url(imagens/frame-iphone.png) no-repeat ;
     width: 310px;
     height: 650px;
    
