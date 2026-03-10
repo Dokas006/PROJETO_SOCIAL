@@ -25,7 +25,7 @@ main{
     height: 650px;
    
 }
-
+ 
 #tela{
     position: relative;
     top: 80px;
@@ -39,7 +39,7 @@ main{
     margin: 10px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.436);
-    transition: ease transform 0.5s;
+    transition: ease transform 0.5s, border 0.4s;
 }
 
 #redes img:hover{
